@@ -49,6 +49,10 @@ variable "engine_version" {
   description = "The engine version to use"
 }
 
+varibale "engine_mode" {
+  description = "The engine mode"
+}
+
 variable "final_snapshot_identifier" {
   description = "The name of your final DB snapshot when this DB instance is deleted."
   default     = false

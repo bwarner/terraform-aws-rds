@@ -55,6 +55,7 @@ module "db_instance" {
   identifier        = "${var.identifier}"
   engine            = "${var.engine}"
   engine_version    = "${var.engine_version}"
+  engine_mode       = "${var.engine_mode}"
   instance_class    = "${var.instance_class}"
   allocated_storage = "${var.allocated_storage}"
   storage_type      = "${var.storage_type}"
