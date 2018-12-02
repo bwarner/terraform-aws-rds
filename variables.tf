@@ -49,7 +49,7 @@ variable "engine_version" {
   description = "The engine version to use"
 }
 
-varibale "engine_mode" {
+variable "engine_mode" {
   description = "The engine mode"
 }
 
